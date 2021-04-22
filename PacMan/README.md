@@ -5,7 +5,7 @@ You love him.
 Here he is, alive and roaming your screen :) .
 
 Name: PacMan  
-Description: Upon clicking PacMan, he chomps across your screen from left to right.
+Description: Upon clicking PacMan, he chomps across your screen from left to right. Upon hitting the right edge, he will make his way back.
 Usage: FUN
 Support: Email jade.marie.abel@gmail.com
 Roadmap: In the future, PacMan might get chased by ghosts.
