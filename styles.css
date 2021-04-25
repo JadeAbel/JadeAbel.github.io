@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #b690ae;
+}
+.Socials {
+  width: 60px;
+  height: 60px;
+}
+
+.Email:link,
+.Email:visited {
+  background-color: #b690ae;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+}
+
+.Email:hover {
+  background-color: #a6cee6;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+}
