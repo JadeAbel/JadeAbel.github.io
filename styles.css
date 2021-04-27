@@ -1,14 +1,60 @@
+.grid {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: auto 1fr auto;
+  gap: 5px;
+  height: 90vh;
+}
+header,
+footer {
+  grid-column: 1 / 4;
+}
+header,
+aside,
+footer {
+  border-style: solid;
+  padding: 0;
+  border-top-color: rgb(255, 105, 180);
+  border-left-color: #ff69b4;
+  border-right-color: hotpink;
+  border-bottom-color: hotpink;
+  background-color: #b690ae;
+}
+article {
+  border-style: solid;
+  padding: 20;
+  border-top-color: rgb(255, 105, 180);
+  border-left-color: #ff69b4;
+  border-right-color: hotpink;
+  border-bottom-color: hotpink;
+  background-color: #b690ae;
+}
+header {
+  margin: 4.2;
+  padding: 0;
+  background: #b690ae;
+  font-size: 1.2m;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(38, 61, 44);
+  text-align: center;
+}
+aside {
+  text-align: center;
+}
 body {
-  margin: 0;
+  margin: 6;
   padding: 0;
   background: #b690ae;
   font-size: 1.1em;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(38, 61, 44);
+  text-align-last: center;
 }
 .Socials {
-  width: 60px;
-  height: 60px;
+  margin: 25px;
+  width: 80px;
+  height: 80px;
+  padding: 25px;
 }
 
 .Link:link,
@@ -16,7 +62,8 @@ body {
   background-color: #b690ae;
   color: rgb(38, 61, 44);
   padding: 14px 25px;
-  text-align: center;
+  text-align-last: left;
+  text-align: left;
   display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -25,7 +72,19 @@ body {
   background-color: #a6cee6;
   color: rgb(38, 61, 44);
   padding: 14px 25px;
-  text-align: center;
+  text-align-last: left;
+  text-align: left;
   display: inline-block;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.cloudimage {
+  max-width: 196px;
+}
+
+.treeimage{
+    max-width: 365px;
+    margin:  -80px;
+    margin-top: 180px;
+">
 }
