@@ -28,6 +28,7 @@ article {
   border-right-color: hotpink;
   border-bottom-color: hotpink;
   background-color: #b690ae;
+  text-align-last: center;
 }
 header {
   margin: 4.2;
@@ -38,7 +39,8 @@ header {
   color: rgb(38, 61, 44);
   text-align: center;
 }
-aside {
+aside,
+footer {
   text-align: center;
 }
 body {
@@ -48,7 +50,6 @@ body {
   font-size: 1.1em;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(38, 61, 44);
-  text-align-last: center;
 }
 .Socials {
   margin: 25px;
@@ -80,11 +81,57 @@ body {
 
 .cloudimage {
   max-width: 196px;
+  align-content: center;
 }
 
-.treeimage{
-    max-width: 365px;
-    margin:  -80px;
-    margin-top: 180px;
-">
+.treeimage {
+  max-width: 365px;
+  margin: -80px;
+  margin-top: 180px;
+  align-items: end;
+}
+
+.WV {
+  border: 8px solid hotpink;
+  border-radius: 50%;
+  max-width: 50vw;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: px;
+}
+
+.navbar a:hover {
+  background-color: #a6cee6;
+}
+
+.active {
+  background-color: #6b4c5b;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.projectDescription {
+  font-family: monospace;
+  padding: 24px;
+}
+.header {
+  width: 100%;
+  text-align: center;
+  border: 8px solid hotpink;
 }
